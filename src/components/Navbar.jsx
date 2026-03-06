@@ -4,7 +4,7 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons/faPlus';
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-white w-[1200px] mx-auto">
+        <div className="navbar bg-white w-[1280px] mx-auto">
             <div className="flex-1">
                 <a className="btn btn-ghost text-xl">CS — Ticket System</a>
             </div>

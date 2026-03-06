@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still cannot access the dashboard.",
+    "customer": "John Smith",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "15-01-2024"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Failed During Checkout",
+    "description": "Customer reports that their payment is failing during checkout despite using a valid credit card.",
+    "customer": "Emma Johnson",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "16-01-2024"
+  },
+  {
+    "id": 1003,
+    "title": "Unable to Download Invoice",
+    "description": "Customer cannot download their invoice from the billing section. The download button does not respond.",
+    "customer": "Michael Brown",
+    "priority": "medium",
+    "status": "in-progress",
+    "createdAt": "17-01-2024"
+  },
+  {
+    "id": 1004,
+    "title": "Incorrect Billing Address",
+    "description": "Customer noticed that the billing address on their invoice is incorrect and wants it updated.",
+    "customer": "Sophia Davis",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "18-01-2024"
+  },
+  {
+    "id": 1005,
+    "title": "Account Verification Email Not Received",
+    "description": "Customer signed up but did not receive the verification email needed to activate their account.",
+    "customer": "Daniel Wilson",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "19-01-2024"
+  },
+  {
+    "id": 1006,
+    "title": "App Crashes on Startup",
+    "description": "Customer reports that the application crashes immediately after opening it on their mobile device.",
+    "customer": "Olivia Martinez",
+    "priority": "high",
+    "status": "in-progress",
+    "createdAt": "20-01-2024"
+  },
+  {
+    "id": 1007,
+    "title": "Profile Picture Not Updating",
+    "description": "Customer tried uploading a new profile picture but the old one keeps showing even after refresh.",
+    "customer": "William Anderson",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "21-01-2024"
+  },
+  {
+    "id": 1008,
+    "title": "Search Feature Not Returning Results",
+    "description": "Customer says that searching for products returns no results even though items exist in the catalog.",
+    "customer": "Isabella Thomas",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "22-01-2024"
+  },
+  {
+    "id": 1009,
+    "title": "Notifications Not Appearing",
+    "description": "Customer does not receive notifications for important updates even though notifications are enabled.",
+    "customer": "James Taylor",
+    "priority": "low",
+    "status": "in-progress",
+    "createdAt": "23-01-2024"
+  },
+  {
+    "id": 1010,
+    "title": "Subscription Plan Incorrect",
+    "description": "Customer upgraded their subscription but the system still shows the old plan.",
+    "customer": "Mia Moore",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "24-01-2024"
+  },
+  {
+    "id": 1011,
+    "title": "Two-Factor Authentication Not Working",
+    "description": "Customer cannot complete login because the 2FA code sent to their phone is not being accepted.",
+    "customer": "Benjamin Jackson",
+    "priority": "high",
+    "status": "in-progress",
+    "createdAt": "25-01-2024"
+  },
+  {
+    "id": 1012,
+    "title": "Dashboard Loading Slowly",
+    "description": "Customer reports that the dashboard takes over 20 seconds to load after logging in.",
+    "customer": "Charlotte White",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "26-01-2024"
+  },
+  {
+    "id": 1013,
+    "title": "File Upload Failed",
+    "description": "Customer attempted to upload a document but received an error saying the upload failed.",
+    "customer": "Lucas Harris",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "27-01-2024"
+  },
+  {
+    "id": 1014,
+    "title": "Incorrect Order Details",
+    "description": "Customer noticed that their order history shows incorrect product details.",
+    "customer": "Amelia Clark",
+    "priority": "low",
+    "status": "in-progress",
+    "createdAt": "28-01-2024"
+  },
+  {
+    "id": 1015,
+    "title": "Password Reset Link Expired",
+    "description": "Customer reports that the password reset link expires immediately after clicking it.",
+    "customer": "Henry Lewis",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "29-01-2024"
+  }
+]
