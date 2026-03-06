@@ -1,0 +1,48 @@
+.card {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    height: 170px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.card-progress {
+    background: linear-gradient(90deg, #632EE3 0%, #9F62F2 100%);
+}
+
+.card-resolved {
+    background: linear-gradient(90deg, #54CF68 0%, #00827A 100%);
+}
+
+.card .wave {
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+/* right side (original) */
+.card .wave-right {
+    right: 0;
+    transform: scaleX(-1);
+}
+
+/* left side (flipped) */
+.card .wave-left {
+    left: 0;
+}
+
+/* .card .title {
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.card .count {
+  font-size: 56px;
+  line-height: 1;
+} */
