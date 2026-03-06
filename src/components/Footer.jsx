@@ -9,7 +9,7 @@ const Footer = () => {
             <aside className='w-80'>
                 <h2 className='font-bold text-white text-xl'>CS — Ticket System</h2>
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    Our platform helps you manage customer tickets efficiently and stay on top of every task. Track issues, prioritize requests, and resolve them faster with intuitive tools. Designed to streamline your workflow and improve team collaboration. Gain insights into ticket trends, monitor performance, and enhance customer satisfaction. Simplify your support process and keep your customers happy every day.
                 </p>
             </aside>
             <nav>
