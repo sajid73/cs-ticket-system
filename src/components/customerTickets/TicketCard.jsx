@@ -2,9 +2,9 @@ import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
 
-const TicketCard = ({ id, title, description, customer, priority, status, createdAt }) => {
+const TicketCard = ({ id, title, description, customer, priority, status, createdAt, handleClickStatus }) => {
     return (
-        <div className="card shadow-sm bg-white rounded-sm">
+        <div className="card shadow-md bg-white rounded-sm" onClick={() => handleClickStatus({ id, title, description, customer, priority, status, createdAt })}>
             <div className="card-body">
                 <h1 className="card-title justify-between text-base">
                     {title}
@@ -17,7 +17,7 @@ const TicketCard = ({ id, title, description, customer, priority, status, create
                 <div className="text-gray-500 flex justify-between items-center">
                     <div>
                         <span>#{id}</span>
-                        <span className={`text-${priority === 'high' ? 'red' : priority === 'medium' ? 'yellow' : 'green'}-500 font-semibold px-1 text-sm`}>
+                        <span className={`text-${priority == 'high' ? 'red' : priority == 'medium' ? 'yellow' : 'green'}-500 font-semibold px-1 text-sm`}>
                             {priority.toUpperCase()} PRIORITY
                         </span>
                     </div>
