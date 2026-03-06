@@ -1,16 +1,90 @@
-# React + Vite
+# General QA
+### 1. What is JSX, and why is it used?
+**Answer:**  
+JSX is a syntax extension for JavaScript that looks like HTML and is used to describe UI in React components.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+### 2. What is the difference between State and Props?
+**Answer:**  
+Props are read-only data passed from parent to child, while state is internal and can change over time within a component.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+### 3. What is the `useState` hook, and how does it work?
+**Answer:**  
+`useState` is a React hook that adds state to functional components and provides a function to update it.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### 4. How can you share state between components in React?
+**Answer:**  
+State can be shared by lifting it to a common parent, using Context API, or state management libraries like Redux.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 5. How is event handling done in React?
+**Answer:**  
+Events are handled using camelCase props, and functions are passed as event handlers with React’s SyntheticEvent system.
+
+---
+
+# CS Ticket System
+
+A customer service ticket management system built with React and Vite. This application allows users to manage, track, and resolve customer support tickets with an intuitive dashboard interface.
+
+## Project Overview
+
+The CS Ticket System provides a comprehensive solution for handling customer support tickets. Features include:
+- Dashboard for ticket overview
+- Customer ticket management
+- Ticket status tracking
+- Resolved ticket history
+- Responsive UI with TailwindCSS
+
+
+# Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/sajid73/cs-ticket-system.git
+cd cs-ticket-system
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+### Running Locally
+
+To run the development server:
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173` (or another port if 5173 is in use).
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+## Technology Stack
+
+- **React** - Frontend framework
+- **Vite** - Build tool and dev server
+- **TailwindCSS** - Utility-first CSS framework
+- **ESLint** - Code quality and linting
+
+## Links
+
+- **GitHub Repository**: [https://github.com/sajid73/cs-ticket-system](https://github.com/sajid73/cs-ticket-system)
+- **Live Site**: [https://cs-ticket-system-sajid.netlify.app](https://cs-ticket-system-sajid.netlify.app)
